@@ -12,3 +12,4 @@ export const MoviesReducer = (state = initialState.movies, action) => {
             return state;
     }
 };
+

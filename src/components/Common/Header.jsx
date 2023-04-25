@@ -7,6 +7,7 @@ function Header() {
     const dispatch = useDispatch();
 
     return (
+        
         <>
             <header>
                 <img class="logo" src={IconLogo} onClick={() => dispatch(push('/'))} alt="" />
